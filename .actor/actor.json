@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "vietnam-public-fx-rates-api",
+  "title": "Vietnam Public Exchange Rates & VND Currency Converter API",
+  "description": "Fetches public reference foreign exchange rates for Vietnamese Dong (VND) against 20+ global currencies (USD, EUR, JPY, GBP, SGD, KRW, CNY, AUD) with instant conversion calculation.",
+  "version": "1.0",
+  "meta": {
+    "templateId": "js-start"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile"
+}

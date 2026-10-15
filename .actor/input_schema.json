@@ -1,0 +1,34 @@
+{
+  "title": "Vietnam FX Rates & Currency Converter Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "currencies": {
+      "title": "Target Currencies",
+      "type": "array",
+      "description": "List of ISO currency codes to compare against Vietnamese Dong (VND).",
+      "editor": "stringList",
+      "prefill": [
+        "USD",
+        "EUR",
+        "JPY",
+        "GBP",
+        "SGD",
+        "KRW",
+        "CNY",
+        "AUD",
+        "CAD",
+        "THB"
+      ]
+    },
+    "amountInForeignCurrency": {
+      "title": "Amount to Convert to VND",
+      "type": "number",
+      "description": "Amount of foreign currency to convert into VND.",
+      "default": 100
+    }
+  },
+  "required": [
+    "currencies"
+  ]
+}

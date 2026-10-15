@@ -1,0 +1,13 @@
+{
+  "name": "apify-vietnam-public-fx-rates-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Fetches public reference foreign exchange rates for Vietnamese Dong (VND) against 20+ global currencies (USD, EUR, JPY, GBP, SGD, KRW, CNY, AUD) with instant conversion calculation.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "apify": "^3.2.0"
+  }
+}
